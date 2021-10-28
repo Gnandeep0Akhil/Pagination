@@ -1,0 +1,87 @@
+.Table {
+  position: fixed;
+  left: 0vw;
+  bottom: 0vh;
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+}
+
+.form1 {
+  position: fixed;
+  left: 0vw;
+  bottom: 70vh;
+  width: 35vw;
+  height: 30vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.form2 {
+  position: fixed;
+  left: 35vw;
+  bottom: 70vh;
+  width: 35vw;
+  height: 30vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.part3 {
+  position: fixed;
+  left: 70vw;
+  bottom: 70vh;
+  width: 30vw;
+  height: 30vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+
+input[type=text],
+input[type=number],
+input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border: none;
+  padding: 14px 28px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+input[type=submit]:hover {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+label,
+h4 {
+  font-weight: bolder;
+  color: rgb(88, 88, 88);
+}
+
+.head {
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+}
+
+.head:hover {
+  background-color: rgb(88, 88, 88);
+  border-radius: 5px;
+  color: whitesmoke;
+}
