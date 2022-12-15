@@ -20,7 +20,7 @@ export class Form1 extends Component {
   };
   
   handleSubmit = (event) => {
-    fetch("https://backend-pagination.herokuapp.com/get", {
+    fetch("https://pagibend.onrender.com/get", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       mode: "cors",
